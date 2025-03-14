@@ -6,9 +6,9 @@ string Vowels = "aeuoi";
 int GetVowelsAmount(string str)
 {
 	int amount = 0;
-	for(int i = 0; i < static_cast<int>(str.size)); i++)
+	for(int i = 0; i < static_cast<int>(str.size()); i++)
 	{
-		for(int j = 0; j < static_cast<int>(Vowels.size)); j++)
+		for(int j = 0; j < static_cast<int>(Vowels.size()); j++)
 		{
 			if(str[i] == Vowels[j])
 			{
@@ -26,5 +26,5 @@ int main()
 	string str = "";
 	cin >> str;
 
-	cout << GetVowels(str);
+	cout << GetVowelsAmount(str);
 }
